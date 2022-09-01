@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title>Gallerie | Maisons à louer</title> 
+    
+    
+    <meta name="description" content="This is a dangerous site.">
+    
+    <link href="/image/favicon.jpg" rel="icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Open+Sans&family=Poppins&family=Raleway:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/4e15758d88.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/gallery.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      activateGallery();
+    });
+    </script>
+</head>
+  <body>
+    <header class="header">
+    <nav>
+      <input type="checkbox" id="mobile-menu" class="mobile-menu-check">
+      <label for="mobile-menu" class="show-mobile-menu">Menu</label>
+      <ul class="header-nav nav-link">
+        <li><a href="/">Accueil</a></li>
+<li><a href="#service">Services</a></li>
+<li class="dropdown position">
+    <a class="drop-trigger" href="/gallery">Gallerie</a>
+    <ul class="drop-menu">
+        <!-- <li>Eléments</li> -->
+        <li><a href="/gallery/index.html">Maisons à louer</a></li>
+        <li><a href="/gallery/article.html">Articles à acheter</a></li>
+        <li><a href="/gallery/service.html">Services disponibles</a></li>
+    </ul>
+</li>
+
+<!-- <li><a href="/">Temoignages</a></li> -->
+<li><a href="#fin">Contact</a></li>
+
+
+      </ul>
+    </nav>
+    <a href="/" class="header-logo">
+      <img src="/image/favicon.jpg" alt="Easy-Finding">
+    </a>
+</header>
+  <!--  -->
+    <div class="content-container">  
+      <div class="gallery col-three">
+    <div class="col col-nav gallery-thumbs" id="gallery-thumbs">
+        <div class="current">
+            <img src="/image/maison1.jpg" alt="Maison"
+                data-large-version="/image/maison1.jpg"
+                data-title="Maison 1"
+                data-prix ="2000 Dh"
+                data-description="Table d'Etude d'occasion convenant à votre confort durant vos séances d'etude chez vous. En parfait état, n'attend que votre appropriation ">
+        </div>
+        <div>
+            <img src="/image/maison2.jpg" alt="Maison"
+                data-large-version="/image/maison2.jpg"
+                data-title="Maison 2"
+                data-prix ="2600 Dh"
+                data-description="Table d'Etude d'occasion convenant à votre confort durant vos séances d'etude chez vous. En parfait état, n'attend que votre appropriation ">
+        </div>
+        <div>
+            <img src="/image/maison3.jpg" alt="Maison"
+                data-large-version="/image/maison3.jpg"
+                data-title="Maison 3"
+                data-prix ="1750 Dh"
+                data-description="Table d'Etude d'occasion convenant à votre confort durant vos séances d'etude chez vous. En parfait état, n'attend que votre appropriation ">
+        </div>
+        <div>
+            <img src="/image/maison4.jpg" alt="Maison"
+                data-large-version="/image/maison4.jpg"
+                data-title="Maison 4"
+                data-prix ="1550 Dh"
+                data-description="Table d'Etude d'occasion convenant à votre confort durant vos séances d'etude chez vous. En parfait état, n'attend que votre appropriation ">
+        </div>
+        <div>
+            <img src="/image/maison5.jpg" alt="Maison"
+            data-large-version="/image/maison5.jpg"
+                data-title="Maison 5"
+                data-prix ="5000 Dh"
+                data-description="Table d'Etude d'occasion convenant à votre confort durant vos séances d'etude chez vous. En parfait état, n'attend que votre appropriation ">
+        </div>
+        <div>
+            <img src="/image/maison6.jpg" alt="Maison"
+                data-large-version="/image/maison6.jpg"
+                data-title="Maison 6"
+                data-prix ="10 000 Dh"
+                data-description="Table d'Etude d'occasion convenant à votre confort durant vos séances d'etude chez vous. En parfait état, n'attend que votre appropriation ">
+        </div>
+    </div>
+    <div class="col col-content">
+        <div class="gallery-photo" id="gallery-photo">
+            <img src="/image/maison1.jpg" alt="Maison"
+                data-large-version="/image/maison1.jpg"
+                data-title="Maison 1"
+                data-prix ="2000 Dh"
+                data-description="Table d'Etude d'occasion convenant à votre confort durant vos séances d'etude chez vous. En parfait état, n'attend que votre appropriation ">
+        </div>
+    </div>
+    <div class="col col-aside gallery-info" id="gallery-info">
+        <h3 class="title">Maison 1</h3>
+        <p class="description">Table d'Etude d'occasion convenant à votre confort durant vos séances d'etude chez vous. En parfait état, n'attend que votre appropriation</p>
+        <div class="achat">
+            <h2 class="prix">2000 Dh</h2>
+            <a href="#"><button>Ajouter au panier<i class="fas fa-shopping-cart"></i></button></a>
+        </div>
+    </div>
+</div>
+
+    </div> 
+    <footer class="footer" id="fin">
+    <div class="place">
+      <div class="about footer-content">
+        <h2>Easy-Finding</h2>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+          Excepturi ex voluptates esse consequuntur in eius nam veniam dolor, inventore autem labore, ipsum, rerum vel repellat! 
+          Repudiandae est iure sit quibusdam?
+        </p>
+        <p class="social-media">
+          <ul class="social-list">
+    <li>
+      <a href="https://facebook.com/Anicet Kobanka" class="social-link fb"> <i class="fa brands fa-facebook"></i> </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/@AnissKob" class="social-link tw"> <i class="fa brands fa-twitter"></i> </a>
+    </li>
+    <li>
+      <a href="https://example.com/" class="social-link lkdn"> <i class="fa brands fa-linkedin"> </i></a>
+    </li>
+    <li>
+      <a href="https://instagram.com/Anicet Kobanka" class="social-link ingm"> <i class="fa brands fa-instagram"> </i></a>
+    </li>
+</ul>
+        </p>
+      </div>
+      <div class="contact footer-content">
+        <h2 class="head"> Nous Contactez </h2>
+        <ul class="cntc-elmt">
+          <li class="icone"><i class="fa solid fa-location-dot symb"></i> &nbsp;Adresse</li>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <li class="icone"><i class="fa solid fa-envelope symb"></i> &nbsp;E-mail</li>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <li class="icone"><i class="fa brands fa-whatsapp symb"></i> &nbsp;Whatsapp</li>
+          <p> &nbsp;+226 00 00 98 90/+212 06 32 43 00 00</p>
+        </ul>
+      </div>
+      <nav class="ln-utl footer-content">
+        <h2>Liens Utiles</h2>
+        <ul class="footer-nav nav-link">
+          <li><a href="/">Accueil</a></li>
+<li><a href="#service">Services</a></li>
+<li class="dropdown position">
+    <a class="drop-trigger" href="/gallery">Gallerie</a>
+    <ul class="drop-menu">
+        <!-- <li>Eléments</li> -->
+        <li><a href="/gallery/index.html">Maisons à louer</a></li>
+        <li><a href="/gallery/article.html">Articles à acheter</a></li>
+        <li><a href="/gallery/service.html">Services disponibles</a></li>
+    </ul>
+</li>
+
+<!-- <li><a href="/">Temoignages</a></li> -->
+<li><a href="#fin">Contact</a></li>
+
+
+        </ul>
+      </nav>
+    </div>
+    <div class="rights"><h5>© Easy-Finding Corp(); 2022.<span>All Rights Reserved</span></h5></div>
+  </footer>
+  
+  <!-- <div id="deuxiemeTrait"></div>
+              <div id="copyrightEtIcons">
+                  <div id="copyright">
+                      <span>© Easy-Finding Corp(); 2022. All Rights Reserved</span>
+                  </div>
+                  
+              </div>
+          </div> -->
+  </body>
+</html>
