@@ -1104,4 +1104,16 @@ section .heading{
   .footer .place{
     flex-direction: column;
   }
+.footer .fb {
+  background-color: blue;
+}
+.footer  .tw{
+  background-color: #1DA1F2;
+}
+.footer .lkdn {
+  background-color: blue;
+}
+.footer .ingm {
+  background-color: rgb(248, 81, 103);
+}
 }
