@@ -146,7 +146,27 @@ p {
   text-decoration: none;
   text-transform: uppercase;
 }
-
+.savoirPlus{
+  text-decoration: none;
+}
+.Savoir:hover{
+  color: #000;
+  background-color: #fff;
+  transform: scale(0.85);
+}
+.Savoir{
+  display: block;
+  margin: 2em auto 1em ;
+  background-color: #000;
+  color: #fff;
+  border-style: unset;
+  text-transform: capitalize;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 1em 1em;
+  font-size: .75em;
+  transition: all 0.25s ease-in-out;
+}
 .header-logo {
   /* background-color: wheat; */
   box-sizing: border-box;
@@ -283,6 +303,7 @@ h1 {
 .hero-home {
   background-image: url(/image/backimg.jpg);
   background-position: center;
+  background-repeat: no-repeat;
 }
 .hero-content {
   color: #fff;
@@ -718,18 +739,18 @@ section .heading{
   color: white;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  font-size: 1em;
+  font-size: 1.25em;
 }
 .gallery-info h3 {
   margin: 2em 0;
   text-align: center;
-  color: wheat;
+  color: #fff;
   font-weight: bolder;
-  font-size: 1.5em;
+  font-size: 1.75em;
 }
 .gallery-info .prix{
   font-size: 2em;
-  color: rgb(235, 28, 28);
+  color: #1DA1F2;
   margin: .5rem 0;
 }
 .gallery-info button{
@@ -944,6 +965,9 @@ section .heading{
   .col-three {
     flex-direction: column;
     max-width: fit-content;
+  }
+  .col-content img{
+    max-height: 50vh;
   }
   .gallery .col {
     padding: 1em;
